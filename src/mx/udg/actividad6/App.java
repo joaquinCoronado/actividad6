@@ -97,6 +97,7 @@ public class App {
         };
 
         //Leemos los registros desde un archivo .txt
+        //TODO: Claudia, cambia esta ruta
         List<String> archivo = leerArchivo("/Users/JoaquinCoronado/archivo.txt");
 
         //Nos ayudará a guardar el resultado de la validación de los campos
@@ -136,6 +137,7 @@ public class App {
             }
         });
 
+        //TODO: Claudia, cambia esta ruta
         escribirArchivo("/Users/JoaquinCoronado/resultados.txt", resultado.toString());
     }
 }
